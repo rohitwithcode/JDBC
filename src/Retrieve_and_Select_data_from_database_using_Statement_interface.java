@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class Retrieve_and_Select_data_from_database {
+public class Retrieve_and_Select_data_from_database_using_Statement_interface {
 
 //    private static final String url="jdbc:mysql://localhost:3306/coder";
 //    private static final String user="CoderRohit";
