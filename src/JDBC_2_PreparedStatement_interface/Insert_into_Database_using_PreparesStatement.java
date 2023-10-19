@@ -1,4 +1,4 @@
-package JDBC_2_PreparedStatement;
+package JDBC_2_PreparedStatement_interface;
 
 import javax.swing.*;
 import java.sql.Connection;
