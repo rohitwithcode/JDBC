@@ -33,7 +33,7 @@ public class Transaction {
             }
             else {
                 connection.rollback();
-                System.out.println("Transaction failed...");
+                System.out.println("Transaction failed.Insufficient Balance");
             }
             debitPreparedStatement.close();
             creditPreparedStatement.close();
