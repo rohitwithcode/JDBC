@@ -34,11 +34,7 @@ public class Insert_into_Database_using_PreparesStatement {
             }
         }catch (ClassNotFoundException e){
             System.out.println(e.getMessage());
-            e.printStackTrace();
         }catch (SQLException e){
-            System.out.println(e.getMessage());
-            e.printStackTrace();
-        }catch (NumberFormatException e){
             System.out.println(e.getMessage());
             e.printStackTrace();
         }
