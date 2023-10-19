@@ -1,3 +1,5 @@
+package JDBC_1_Statement_interface;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
