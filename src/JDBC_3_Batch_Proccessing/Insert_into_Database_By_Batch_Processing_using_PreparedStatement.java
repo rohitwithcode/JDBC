@@ -1,5 +1,16 @@
 package JDBC_3_Batch_Proccessing;
 
+/*
+        STEPS TO ADD MORE ENTRIES IN DATABASE USING BATCH PROCESSING
+
+               1.Load Driver
+               2.Create Connection
+               3.Create Query
+               4.Get Statement
+               5.statement.addBatch()
+               6.statement.executeBatch()
+ */
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
