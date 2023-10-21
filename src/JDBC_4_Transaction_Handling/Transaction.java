@@ -9,7 +9,9 @@ public class Transaction {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/Transaction","CoderRohit","Radhey@725386");
+            
             connection.setAutoCommit(false);
+            
             String queryDebit="update accounts set balance=balance-? where account_number=?";
             String creditQuery="update accounts set balance=balance+? where account_number=?";
 
